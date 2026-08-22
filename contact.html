@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Malaika Clothes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar solid" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-brand">
+      <span class="brand-icon">✦</span> Malaika Clothes
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html"   class="nav-link">Home</a></li>
+      <li><a href="shop.html"    class="nav-link">Shop</a></li>
+      <li><a href="about.html"   class="nav-link">About</a></li>
+      <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      <li><a href="login.html"   class="nav-link nav-cta">Login</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===== PAGE HERO ===== -->
+<div class="page-hero">
+  <div class="container">
+    <span class="section-label">Say Hello</span>
+    <h1>Get in Touch</h1>
+    <p>We'd love to hear from you</p>
+  </div>
+</div>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section>
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Left: Info + Social -->
+      <div class="contact-info reveal">
+        <span class="section-label">Contact Us</span>
+        <h2>We'd Love to Hear From You</h2>
+        <p>
+          Have a question about an order, a product, or just want to say hi?
+          Send us a message and our team will get back to you within 24 hours.
+          We're here to make your Malaika experience wonderful.
+        </p>
+
+        <div style="margin-bottom:2rem;">
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:0.85rem; color:var(--text);">
+            <span style="width:40px; height:40px; background:var(--primary-light); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; font-size:1.1rem; flex-shrink:0;">📧</span>
+            <div>
+              <div style="font-size:0.75rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; letter-spacing:0.06em;">Email</div>
+              <div style="font-weight:500; font-size:0.92rem;">hello@malaikaclothes.com</div>
+            </div>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; color:var(--text);">
+            <span style="width:40px; height:40px; background:var(--primary-light); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; font-size:1.1rem; flex-shrink:0;">📍</span>
+            <div>
+              <div style="font-size:0.75rem; color:var(--text-muted); font-weight:600; text-transform:uppercase; letter-spacing:0.06em;">Location</div>
+              <div style="font-weight:500; font-size:0.92rem;">Fashion Street, Style City</div>
+            </div>
+          </div>
+        </div>
+
+        <h4 style="font-size:0.88rem; font-weight:700; color:var(--dark); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1rem;">Follow Us</h4>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">
+            <i class="icon-instagram" style="font-size:1.1rem;"></i>
+            <span>@malaikaclothes</span>
+          </a>
+          <a href="#" class="social-link" aria-label="Facebook">
+            <i class="icon-facebook" style="font-size:1.1rem;"></i>
+            <span>Malaika Clothes</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-form-card reveal">
+        <h3>Send Us a Message</h3>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Your Name</label>
+              <input class="form-input" type="text" id="name" name="name"
+                     placeholder="e.g. Sara Ahmed" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Your Email</label>
+              <input class="form-input" type="email" id="email" name="email"
+                     placeholder="sara@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <input class="form-input" type="text" id="subject" name="subject"
+                   placeholder="How can we help?">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Your Message</label>
+            <textarea class="form-textarea" id="message" name="message"
+                      placeholder="Write your message here…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" style="margin-top:0.5rem;">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>✦ Malaika Clothes</h3>
+        <p>Fashion for every woman. Discover comfort, style, and elegance in every piece we create.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="shop.html">Summer Dresses</a></li>
+          <li><a href="shop.html">Casual Dresses</a></li>
+          <li><a href="shop.html">New Arrivals</a></li>
+          <li><a href="shop.html">Sale</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="footer-socials">
+          <a href="#" class="footer-soc" aria-label="Instagram">
+            <i class="icon-instagram" style="font-size:1.1rem; color:inherit;"></i>
+          </a>
+          <a href="#" class="footer-soc" aria-label="Facebook">
+            <i class="icon-facebook" style="font-size:1.1rem; color:inherit;"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 Malaika Clothes. All rights reserved.</div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
