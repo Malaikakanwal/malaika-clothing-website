@@ -17,4 +17,4 @@ A responsive clothing brand website built using HTML, CSS and JavaScript
 
 ## Live Demo
 
-[View Website]
+[View Website](https://malaikakanwal.github.io/malaika-clothing-website/)
